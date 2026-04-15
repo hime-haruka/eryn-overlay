@@ -5,6 +5,8 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sirivennela&display=swap');
+
 html,
 body {
     margin: 0;
@@ -62,7 +64,7 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: "bickham-script-pro-3", "Bickham Script Pro", "Bickham Script", cursive;
+    font-family: "Sirivennela", "Bickham Script Pro", "Bickham Script", cursive;
     font-weight: 400;
     line-height: 0.88;
     text-align: center;
