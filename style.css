@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+
+body {
+  margin: 0;
+  background: transparent;
+}
+
+.date-flag {
+  position: absolute;
+  top: 28px;
+  right: 78px;
+
+  width: 110px;
+  height: 340px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-day {
+  font-family: 'GFS Didot', serif;
+  font-size: 26px;
+  letter-spacing: 0.18em;
+  color: #9b8385;
+
+  margin-top: 6px;
+  margin-bottom: 38px;
+}
+
+.date-date {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 72px;
+  color: #9b8385;
+
+  line-height: 1;
+  margin-bottom: 26px;
+
+  transform: translateX(-2px);
+}
+
+.date-year {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 64px;
+  color: #9b8385;
+
+  line-height: 1;
+
+  transform: translateX(-1px);
+}
