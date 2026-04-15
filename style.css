@@ -1,52 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Cormorant+Garamond:ital,wght@1,500&display=swap');
-
-body {
-  margin: 0;
-  background: transparent;
+@font-face {
+    font-family: 'JoseonPalace';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
 }
 
-.date-flag {
-  position: absolute;
-  top: 28px;
-  right: 78px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 1920px;
+  height: 1080px;
+  background: transparent !important;
+  overflow: hidden;
+}
 
-  width: 110px;
-  height: 340px;
+body {
+  position: relative;
+}
+
+.date-badge {
+  position: absolute;
+  left: 1675px;
+  top: 30px;
+
+  width: 96px;
+  height: 250px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+
+  background: transparent;
+  pointer-events: none;
+  user-select: none;
 }
 
 .date-day {
-  font-family: 'GFS Didot', serif;
-  font-size: 26px;
-  letter-spacing: 0.18em;
-  color: #9b8385;
+  width: 100%;
+  text-align: center;
 
-  margin-top: 6px;
-  margin-bottom: 38px;
+  font-family: "JoseonPalace", serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #a48689;
+
+  margin-top: 2px;
+  margin-bottom: 34px;
+
+  text-transform: uppercase;
+  transform: scaleX(0.96);
 }
 
-.date-date {
-  font-family: 'Cormorant Garamond', serif;
+.date-number {
+  width: 100%;
+  text-align: center;
+
+  font-family: "Bodoni Moda", serif;
   font-style: italic;
-  font-size: 72px;
-  color: #9b8385;
+  font-weight: 500;
+  line-height: 0.9;
+  color: #a48689;
 
-  line-height: 1;
-  margin-bottom: 26px;
-
-  transform: translateX(-2px);
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1;
 }
 
-.date-year {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 64px;
-  color: #9b8385;
+.date-main {
+  font-size: 56px;
+  margin-bottom: 18px;
+  transform: translateX(-1px) scaleX(0.95);
+}
 
-  line-height: 1;
-
-  transform: translateX(-1px);
+.date-sub {
+  font-size: 50px;
+  transform: translateX(-1px) scaleX(0.95);
 }
