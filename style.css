@@ -7,75 +7,82 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  width: 1920px;
-  height: 1080px;
-  background: transparent !important;
-  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background: transparent !important;
 }
 
 body {
-  position: relative;
+    position: relative;
 }
 
 .date-badge {
-  position: absolute;
-  left: 1675px;
-  top: 30px;
+    position: absolute;
+    left: 1766px;
+    top: 20px;
 
-  width: 96px;
-  height: 250px;
+    width: 78px;
+    height: 228px;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 
-  background: transparent;
-  pointer-events: none;
-  user-select: none;
+    background: transparent;
+    pointer-events: none;
+    user-select: none;
 }
 
 .date-day {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
-  font-family: "JoseonPalace", serif;
-  font-size: 23px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  color: #a48689;
+    font-family: 'JoseonPalace', serif;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;   /* 자간 줄임 */
+    color: #a48789;
 
-  margin-top: 2px;
-  margin-bottom: 34px;
+    margin-top: 2px;
+    margin-bottom: 24px;
 
-  text-transform: uppercase;
-  transform: scaleX(0.96);
+    transform: translateX(1px);
 }
 
 .date-number {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
-  font-family: "Bodoni Moda", serif;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 0.9;
-  color: #a48689;
+    font-family: "bickham-script-pro-3", "Bickham Script Pro", "Bickham Script", cursive;
+    font-weight: 400;
+    line-height: 0.88;
+    text-align: center;
+    color: #a48789;
 
-  font-variant-numeric: lining-nums;
-  font-feature-settings: "lnum" 1, "tnum" 1;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
 }
 
 .date-main {
-  font-size: 56px;
-  margin-bottom: 18px;
-  transform: translateX(-1px) scaleX(0.95);
+    font-size: 52px;
+    margin-bottom: 10px;
+
+    transform: translateX(4px);
 }
 
 .date-sub {
-  font-size: 50px;
-  transform: translateX(-1px) scaleX(0.95);
+    font-size: 46px;
+
+    transform: translateX(3px);
 }
