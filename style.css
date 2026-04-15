@@ -35,49 +35,51 @@ body {
     background: transparent;
     pointer-events: none;
     user-select: none;
+    box-sizing: border-box;
+}
+
+.date-day,
+.date-number {
+    width: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    color: #a48789;
 }
 
 .date-day {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    height: 22px;
+    margin-bottom: 18px;
 
     font-family: 'JoseonPalace', serif;
     font-size: 16px;
     line-height: 1;
-    text-align: center;
     text-transform: uppercase;
     letter-spacing: 0;
-    color: #a48789;
-
-    margin-bottom: 18px;
 }
 
 .date-number {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-
     font-family: "Sirivennela", "Bickham Script Pro", "Bickham Script", cursive;
     font-weight: 400;
-    line-height: 0.8;
-    text-align: center;
-    color: #a48789;
-
-    white-space: nowrap;
+    line-height: 1;
 
     -webkit-font-smoothing: antialiased;
     text-rendering: geometricPrecision;
+    font-variant-numeric: lining-nums tabular-nums;
 }
 
 .date-main {
-    font-size: 46px;
-    margin-bottom: 8px;
-    transform: translateX(8px);
+    height: 56px;
+    font-size: 48px;
+    margin-bottom: 6px;
 }
 
 .date-sub {
-    font-size: 40px;
-
-    transform: translateX(6px);
+    height: 52px;
+    font-size: 44px;
 }
