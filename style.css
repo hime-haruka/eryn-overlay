@@ -5,7 +5,6 @@
     font-display: swap;
 }
 
-
 html,
 body {
     margin: 0;
@@ -22,11 +21,11 @@ body {
 
 .date-badge {
     position: absolute;
-    left: 1766px;
     top: 20px;
+    right: 44px;
 
-    width: 78px;
-    height: 228px;
+    width: 74px;
+    height: 240px;
 
     display: flex;
     flex-direction: column;
@@ -44,18 +43,14 @@ body {
     padding: 0;
 
     font-family: 'JoseonPalace', serif;
-    font-size: 19px;
-    font-weight: normal;
+    font-size: 16px;
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.02em;   /* 자간 줄임 */
+    letter-spacing: 0;
     color: #a48789;
 
-    margin-top: 2px;
-    margin-bottom: 24px;
-
-    transform: translateX(1px);
+    margin-bottom: 18px;
 }
 
 .date-number {
@@ -65,25 +60,24 @@ body {
 
     font-family: "Sirivennela", "Bickham Script Pro", "Bickham Script", cursive;
     font-weight: 400;
-    line-height: 0.88;
+    line-height: 0.8;
     text-align: center;
     color: #a48789;
 
-    font-variant-numeric: lining-nums;
-    font-feature-settings: "lnum" 1;
+    white-space: nowrap;
+
     -webkit-font-smoothing: antialiased;
     text-rendering: geometricPrecision;
 }
 
 .date-main {
-    font-size: 52px;
-    margin-bottom: 10px;
-
-    transform: translateX(4px);
+    font-size: 46px;
+    margin-bottom: 8px;
+    transform: translateX(8px);
 }
 
 .date-sub {
-    font-size: 46px;
+    font-size: 40px;
 
-    transform: translateX(3px);
+    transform: translateX(6px);
 }
