@@ -27,7 +27,7 @@ body {
 .date-badge {
     position: absolute;
     top: 40px;
-    right: 168px;
+    right: 160px;
 
     width: 74px;
     height: 240px;
@@ -62,7 +62,7 @@ body {
     margin-bottom: 18px;
 
     font-family: 'JoseonPalace', serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 1;
     text-transform: uppercase;
